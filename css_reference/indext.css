@@ -1,0 +1,92 @@
+    nav {
+        background-color: white;
+        position: fixed;
+        color: black;
+        margin-right: 50PX;
+        overflow: auto;
+        height: 100%;
+        width: 25%;
+        text-align: center;
+        padding-top: 100px;
+        font-size: 20px;
+    }
+    
+    nav a {
+        color: gray;
+    }
+    
+    nav a:hover {
+        background-color: gray;
+        color: white;
+    }
+    
+    #home {
+        padding-left: 100px;
+        text-align: center;
+        background-color: lightgrey;
+        color: black;
+        padding-bottom: 30px;
+    }
+    
+    #about {
+        background-color: grey;
+        color: white;
+        text-align: center;
+        padding-right: 500px;
+        padding-left: 600px;
+        padding-bottom: 50px;
+    }
+    
+    #contact {
+        text-align: center;
+        background-color: gainsboro;
+        padding-right: 500px;
+        padding-left: 600px;
+        padding-top: 100px;
+    }
+    
+    #contact li {
+        display: inline;
+        font-size: 20px;
+    }
+    
+    form {
+        padding-top: 20px;
+        background-color: khaki;
+    }
+    
+    #gallery {
+        padding-top: 50px;
+        background-color: lemonchiffon;
+        padding-bottom: 100px;
+        margin-bottom: 300px;
+    }
+    
+    div.img {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+    }
+    
+    div.img:hover {
+        border: 1px solid #777;
+    }
+    
+    div.img img {
+        width: 100%;
+        height: auto;
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 3px;
+        background-color: black;
+        color: white;
+        padding: 50px;
+    }
